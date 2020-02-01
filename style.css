@@ -1,2 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: hsl(217, 28%, 15%);
+}
+
+header {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400, 700;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 75px auto;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar li a {
+    margin: 0 25px;
+    color: #fff;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
