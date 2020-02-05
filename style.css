@@ -289,5 +289,21 @@ header ul {
     border-radius: 27px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+/* Footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(216, 53%, 9%);
+    color: #fff;
+    max-width: 1150px;
+    padding: 0 calc((100% - 1150px) / 2);;   
+}
+
+footer div svg {
+    margin: 0 1000px 0 0;
+}
+
+
+.attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
